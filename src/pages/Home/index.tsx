@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { useExampleQuery } from '@/hooks/useQuery';
 import { useExampleStore } from '@/stores/useExampleStore';
 
-const ExampleCounter = () => {
+const Home = () => {
   const { count, increase } = useExampleStore();
   const { data, isLoading, error } = useExampleQuery();
 
@@ -25,4 +25,4 @@ const ExampleCounter = () => {
   );
 };
 
-export default ExampleCounter;
+export default Home;
